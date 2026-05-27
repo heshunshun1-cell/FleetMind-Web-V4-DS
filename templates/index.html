@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 网页标题，会显示在浏览器标签页上 -->
+    <title>FleetMind AI Logistics Assistant</title>
+
+    <!-- 连接 static 文件夹里的 CSS 样式文件 -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- 项目主标题 -->
+        <h1>FleetMind</h1>
+
+        <!-- 项目副标题 -->
+        <h2>AI Logistics Assistant</h2>
+
+        <!-- 项目简介：用学生口吻说明项目来源和用途 -->
+        <p>
+            FleetMind is a small logistics analysis web app inspired by my experience with freight operations.
+            I built it to help understand truck revenue, operating costs, profit margin, risk level,
+            and the main cost pressure in a simple and clear way.
+        </p>
+
+        <!-- 首页菜单：对应不同功能页面 -->
+        <div class="menu">
+
+            <!-- 分析一辆样本车辆 -->
+            <a href="/samples" class="button">Analyse a Sample Truck</a>
+
+            <!-- 添加并分析一辆新车 -->
+            <a href="/new-truck" class="button">Add and Analyse a New Truck</a>
+
+            <!-- 比较所有样本车辆 -->
+            <a href="/compare" class="button">Compare Sample Trucks</a>
+
+            <!-- 使用关键词式 AI 物流助手 -->
+            <a href="/assistant" class="button">Ask AI Logistics Assistant</a>
+
+            <!-- 查看历史分析记录 -->
+            <a href="/history" class="button">View Analysis History</a>
+        </div>
+
+        <!-- 项目信息说明 -->
+        <div class="info-box">
+            <h3>Project Information</h3>
+
+            <p>
+                This project is based on realistic logistics scenarios, but all sample data has been anonymised
+                and modified for privacy protection. It does not include real company names, driver names,
+                plate numbers, clients, or private routes.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* 整体页面样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+/* 主体内容容器 */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* 主标题 */
+h1 {
+    text-align: center;
+    color: #1f3c88;
+    margin-bottom: 10px;
+}
+
+/* 副标题 */
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* 小标题 */
+h3 {
+    color: #1f3c88;
+}
+
+/* 普通段落 */
+p {
+    line-height: 1.6;
+}
+
+/* 首页菜单和页面底部按钮区域 */
+.menu {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* 按钮样式 */
+.button {
+    display: inline-block;
+    background-color: #1f3c88;
+    color: white;
+    padding: 11px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* 鼠标放到按钮上时的效果 */
+.button:hover {
+    background-color: #162c63;
+}
+
+/* 返回链接 */
+.back-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #1f3c88;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 卡片样式，用于车辆信息、分析结果等 */
+.card {
+    background-color: #f9fafc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid #e2e6ea;
+}
+
+/* 项目信息说明框 */
+.info-box {
+    background-color: #eef3ff;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 25px;
+    border-left: 5px solid #1f3c88;
+}
+
+/* 样本车辆列表 */
+.truck-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+}
+
+/* 表单标签 */
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* 输入框 */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cfd6df;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* 表格整体 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* 表头和单元格 */
+th, td {
+    border: 1px solid #d9dee5;
+    padding: 10px;
+    text-align: left;
+}
+
+/* 表头背景 */
+th {
+    background-color: #1f3c88;
+    color: white;
+}
+
+/* 表格偶数行背景 */
+tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+/* 历史记录文本 */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* 成功提示 */
+.success-message {
+    background-color: #e6f6ea;
+    color: #1f7a3f;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 5px solid #1f7a3f;
+}
+
+/* 警告提示 */
+.warning-message {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 5px solid #856404;
+}
